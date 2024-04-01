@@ -13,7 +13,7 @@ const Index = () => {
   const [selectedCountry, setSelectedCountry] = useState(countries[0]);
 
   return (
-    <Box p={8} backgroundImage="url('https://images.unsplash.com/photo-1557200134-90327ee9fafa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxzbXMlMjB2ZXJpZmljYXRpb258ZW58MHx8fHwxNzExOTgyMjg1fDA&ixlib=rb-4.0.3&q=80&w=1080')" backgroundSize="cover" backgroundPosition="center">
+    <Box p={8} backgroundImage="url('https://images.unsplash.com/photo-1611746869696-d09bce200020?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NjAwMjR8MHwxfHNlYXJjaHwxfHxwaG9uZSUyMG51bWJlcnN8ZW58MHx8fHwxNjgwMzc0NTMzfDA&ixlib=rb-4.0.3&q=80&w=1080')" backgroundSize="cover" backgroundPosition="center">
       <VStack spacing={8} align="center">
         <Image src="https://images.unsplash.com/photo-1667453466805-75bbf36e8707?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxwaG9uZSUyMHZlcmlmaWNhdGlvbnxlbnwwfHx8fDE3MTE5ODE5NTB8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="Phone Verification" boxSize="200px" />
         <Heading as="h1" size="xl">

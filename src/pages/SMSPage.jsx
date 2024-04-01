@@ -7,7 +7,7 @@ const SMSPage = () => {
 
   return (
     <Box>
-      <Text color="white">SMS messages for phone number: {phoneNumber}</Text>
+      <Text color="blue.500">SMS messages for phone number: {phoneNumber}</Text>
       {}
     </Box>
   );

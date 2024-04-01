@@ -19,7 +19,7 @@ const Index = () => {
         <Heading as="h1" size="xl">
           Temporary Phone Numbers
         </Heading>
-        <Text fontSize="xl" color="white">
+        <Text fontSize="xl" color="blue.500">
           Get verification codes using temporary phone numbers from different countries
         </Text>
         <Select placeholder="Select country" value={selectedCountry.code} onChange={(e) => setSelectedCountry(countries.find((c) => c.code === e.target.value))}>
@@ -33,7 +33,7 @@ const Index = () => {
           {selectedCountry.phoneNumbers.map((phoneNumber) => (
             <ListItem key={phoneNumber}>
               <Link as={RouterLink} to={`/sms/${phoneNumber}`}>
-                <Text fontSize="lg" color="white">
+                <Text fontSize="lg" color="blue.500">
                   <FaPhone /> {phoneNumber}
                 </Text>
               </Link>
